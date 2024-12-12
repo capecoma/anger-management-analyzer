@@ -1,0 +1,5 @@
+numpy>=1.21.0
+scipy>=1.7.0
+librosa>=0.8.1
+textblob>=0.15.3
+SpeechRecognition>=3.8.1

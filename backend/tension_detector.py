@@ -1,3 +1,9 @@
+import numpy as np
+from scipy.io import wavfile
+from scipy.signal import spectrogram
+import librosa
+import pandas as pd
+
 class TensionDetector:
     def __init__(self):
         self.baseline_window = 30  # seconds for establishing baseline
